@@ -16,9 +16,7 @@ public class UserResource {
 	public ResponseEntity<User> findAll() {
 		User u = new User(1L, "Rogerio", "wroger@terra.com.br", "19-99772-3747", "w27ro08ger64");
 		return ResponseEntity.ok().body(u);
-		
-	
-				
+			
 	}
 
 }
